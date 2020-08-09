@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinSplit", "CoinSplit\CoinSplit.csproj", "{53AE34E3-8764-46E6-8201-C479B4655868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite-01", "Composite-01", "{4C98484D-A08C-4922-B53A-30CC6F2E026C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite-02", "Composite-02", "{7235D474-529C-4ED6-B121-07E7EB0DF8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{E3910DBF-23A4-4141-B349-6CAC6369906E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Tests", "Serialization.Tests\Serialization.Tests.csproj", "{C453AB38-53B9-4561-9318-F0ABED1C420D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite-03", "Composite-03", "{EEE9C43D-C18A-4E52-B696-66196CD6AEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeSpec", "CompositeSpec\CompositeSpec.csproj", "{333B25B4-C9B1-4F8F-9D36-613ABCE921A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53AE34E3-8764-46E6-8201-C479B4655868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AE34E3-8764-46E6-8201-C479B4655868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AE34E3-8764-46E6-8201-C479B4655868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AE34E3-8764-46E6-8201-C479B4655868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3910DBF-23A4-4141-B349-6CAC6369906E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3910DBF-23A4-4141-B349-6CAC6369906E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3910DBF-23A4-4141-B349-6CAC6369906E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3910DBF-23A4-4141-B349-6CAC6369906E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C453AB38-53B9-4561-9318-F0ABED1C420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C453AB38-53B9-4561-9318-F0ABED1C420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C453AB38-53B9-4561-9318-F0ABED1C420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C453AB38-53B9-4561-9318-F0ABED1C420D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333B25B4-C9B1-4F8F-9D36-613ABCE921A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333B25B4-C9B1-4F8F-9D36-613ABCE921A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333B25B4-C9B1-4F8F-9D36-613ABCE921A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333B25B4-C9B1-4F8F-9D36-613ABCE921A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53AE34E3-8764-46E6-8201-C479B4655868} = {4C98484D-A08C-4922-B53A-30CC6F2E026C}
+		{E3910DBF-23A4-4141-B349-6CAC6369906E} = {7235D474-529C-4ED6-B121-07E7EB0DF8C9}
+		{C453AB38-53B9-4561-9318-F0ABED1C420D} = {7235D474-529C-4ED6-B121-07E7EB0DF8C9}
+		{333B25B4-C9B1-4F8F-9D36-613ABCE921A0} = {EEE9C43D-C18A-4E52-B696-66196CD6AEED}
+	EndGlobalSection
+EndGlobal
