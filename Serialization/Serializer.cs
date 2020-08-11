@@ -13,6 +13,7 @@ namespace Serialization.Tests
             var nameOfClass = input.GetType().Name;
             var outputXmlBuilder = new StringBuilder();
             outputXmlBuilder.Append($"<{nameOfClass}>");
+            
             foreach (var propertyInfo in properties)
             {
                 var nameOfProperty = propertyInfo.Name;
